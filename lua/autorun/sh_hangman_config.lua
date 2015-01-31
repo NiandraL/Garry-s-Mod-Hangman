@@ -30,8 +30,8 @@ NiandraMinigames.HangmanGiveUpButtonColour = Color(192, 57, 43,255) -- What colo
 NiandraMinigames.HangmanSettingsButtonColour = Color(58, 83, 155,255) -- What colour should the Settings Button be?
 
 //Winning and prizes
-NiandraMinigames.HangmanWinPoints = 20 -- How many points should the user get when winning a word that's 5 NiandraMinigames.Characters or less? 
-NiandraMinigames.HangmanHintCost = 5 -- If the word is over 5 NiandraMinigames.Characters, how many extra points should they get per letter?
+NiandraMinigames.HangmanWinPoints = 20 -- How many points should the user get when they guess the word?
+NiandraMinigames.HangmanHintCost = 5 -- How many points should hints costs?
 NiandraMinigames.HangmanLosePoints = 5 -- How many points should the user lose if they fuck up?
 NiandraMinigames.HangmanWinMessage = "You guessed the word correctly!"
 NiandraMinigames.HangmanLoseMessage = "You've ran out of tries!"
