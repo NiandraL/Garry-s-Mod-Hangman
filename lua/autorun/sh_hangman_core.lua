@@ -14,7 +14,7 @@ if SERVER then
 			ply:PS_GivePoints(5)
 		end
 		for k, v in pairs(player.GetAll()) do
-			v:ChatPrint(""..ply:Nick().." just won "..NiandraMinigames.HangmanWinPoints.." points from Hangman! Type /hangman to do the same.")
+			v:ChatPrint(""..ply:Nick().." just won "..NiandraMinigames.HangmanWinPoints.." points from Hangman! Type "..NiandraMinigames.ChatCommand.." to do the same.")
 		end
 	end)
 	
